@@ -38,11 +38,11 @@ public class Anfibio  extends Animal{
 	}
 
 	public int getSalamadras() {
-		return salamadras;
+		return salamandras;
 	}
 
 	public void setSalamadras(int salamadras) {
-		this.salamadras = salamadras;
+		this.salamandras = salamadras;
 	}
 
 	public String getColorPiel() {
