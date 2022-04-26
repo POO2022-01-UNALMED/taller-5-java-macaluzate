@@ -10,6 +10,7 @@ public class Ave extends Animal{
 	private String colorPlumas;
 	
 	public Ave() {
+		this(null,-1,null,null,null);
 		
 		
 	}
@@ -17,6 +18,7 @@ public class Ave extends Animal{
         super(nombre, edad, habitat, genero);
         this.colorPlumas = colorPlumas;
         listado.add(this);
+        setTotalAves(1);
 	}
 	public static ArrayList<Ave> getListado() {
 		return listado;

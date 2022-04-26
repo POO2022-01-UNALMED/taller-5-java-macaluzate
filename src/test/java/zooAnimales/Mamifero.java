@@ -11,6 +11,8 @@ public class Mamifero extends Animal{
 	private int patas;
 	
 	public Mamifero() {
+		  this(null, -1, null, null, false, -1);
+    }
 			
 	}
 	
@@ -19,6 +21,7 @@ public class Mamifero extends Animal{
 		 this.pelaje = pelaje;
 	        this.patas = patas;
 	        listado.add(this);
+	        setTotalMamiferos(1);
 		 
 	 }
 

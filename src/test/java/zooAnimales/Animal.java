@@ -16,6 +16,7 @@ public class Animal {
 	private static int totalAnfibios;
 	
 	public Animal() {
+		this(null, 0, null, null);
 		
 	}
 	
