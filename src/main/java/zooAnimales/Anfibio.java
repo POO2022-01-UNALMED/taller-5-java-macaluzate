@@ -59,6 +59,15 @@ public class Anfibio  extends Animal{
 
 	public void setVenenoso(boolean venenoso) {
 		this.venenoso = venenoso;
+	}
+		
+	public String movimiento() {
+		return "saltar";
+		
+	}
+
+		
+	
 		
 		
 		
