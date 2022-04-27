@@ -11,7 +11,7 @@ public class Mamifero extends Animal{
 	private int patas;
 	
 	public Mamifero() {
-		 this(null, -1, null, null, true, -1);
+		 this(null, -1, null, null,false, -1);
     }
 			
 	
@@ -34,17 +34,15 @@ public class Mamifero extends Animal{
 		return caballos;
 	}
 
-	public void setCaballos(int caballos) {
-		this.caballos = caballos;
-	}
+
+	
 
 	public int getLeones() {
 		return leones;
 	}
 
-	public void setLeones(int leones) {
-		this.leones = leones;
-	}
+	
+	
 
 	public boolean isPelaje() {
 		return pelaje;

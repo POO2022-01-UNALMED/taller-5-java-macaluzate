@@ -22,29 +22,21 @@ public class Ave extends Animal{
         setTotalAves(1);
         
 	}
-	public static ArrayList<Ave> getListado() {
-		return listado;
-	}
-
-	public static void setListado(ArrayList<Ave> listado) {
-		Ave.listado = listado;
-	}
+	
+	
 
 	public int getHalcones() {
 		return halcones;
 	}
 
-	public void setHalcones(int halcones) {
-		this.halcones = halcones;
-	}
+	
+	
 
 	public int getAguilas() {
 		return aguilas;
 	}
 
-	public void setAguilas(int aguilas) {
-		this.aguilas = aguilas;
-	}
+	
 
 	public String getColorPlumas() {
 		return colorPlumas;

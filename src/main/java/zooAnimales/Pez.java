@@ -24,29 +24,19 @@ public class Pez extends Animal{
         setTotalPeces(1);
         
 	}
-	public static ArrayList<Pez> getListado() {
-		return listado;
-	}
 
-	public static void setListado(ArrayList<Pez> listado) {
-		Pez.listado = listado;
-	}
 
 	public int getSalmones() {
 		return salmones;
 	}
 
-	public void setSalmones(int salmones) {
-		this.salmones = salmones;
-	}
+	
+	
 
 	public int getBacalaos() {
 		return bacalaos;
 	}
 
-	public void setBacalaos(int bacalaos) {
-		this.bacalaos = bacalaos;
-	}
 
 	public String getColorEscamas() {
 		return colorEscamas;

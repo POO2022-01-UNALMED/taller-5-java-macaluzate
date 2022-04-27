@@ -28,28 +28,7 @@ public class Reptil extends Animal{
 	        setTotalReptiles(1);
 	        
 	 }
-        
-		
-	
-
-	public static ArrayList<Reptil> getListado() {
-		return listado;
-	}
-
-	public static void setListado(ArrayList<Reptil> listado) {
-		Reptil.listado = listado;
-	}
-
-	public int getIguanas() {
-		return iguanas;
-	}
-
-
-	public int getSerpientes() {
-		return serpientes;
-	}
-
-	
+        	
 
 	public String getColorEscamas() {
 		return colorEscamas;
