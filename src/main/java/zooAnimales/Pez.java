@@ -11,7 +11,7 @@ public class Pez extends Animal{
 	private int cantidadAletas;
 	
 	public Pez() {
-		this(null,-1,null,null,null,-1);
+		listado.add(this);
 		
 		
 	}
@@ -20,7 +20,7 @@ public class Pez extends Animal{
         this.colorEscamas = colorEscamas;
         this.cantidadAletas = cantidadAletas;
         listado.add(this);
-        setTotalPeces(1);
+        
 	}
 	public static ArrayList<Pez> getListado() {
 		return listado;
