@@ -13,6 +13,14 @@ public class Zoologico {
 		
 	}
 	
+	public ArrayList<Zona> getZonas() {
+		return zonas;
+	}
+
+	public void setZonas(ArrayList<Zona> zonas) {
+		this.zonas = zonas;
+	}
+
 	public Zoologico(String nombre, String ubicacion) {
 		super();
 		this.nombre = nombre;
