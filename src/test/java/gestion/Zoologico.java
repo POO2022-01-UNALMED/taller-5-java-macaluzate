@@ -21,7 +21,7 @@ public class Zoologico {
 	}
 	
 
-	public void agregarZona(Zona zonanueva) {
+	public void agregarZonas(Zona zonanueva) {
 		zonas.add(zonanueva);
 	}
 	
