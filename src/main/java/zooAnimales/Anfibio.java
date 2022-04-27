@@ -66,12 +66,7 @@ public class Anfibio  extends Animal{
 		
 	}
 
-		
 	
-		
-		
-		
-	}
 	public static Anfibio crearRana(String nombre,int edad,String genero){
         ranas ++;
 
