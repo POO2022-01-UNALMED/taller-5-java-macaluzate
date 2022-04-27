@@ -161,7 +161,7 @@ public class Animal {
 		
 		
 	}
-	public String movimiento() {
+	public String Movimiento() {
         return "desplazarse";
 	}
 	
