@@ -21,16 +21,16 @@ public class Zoologico {
 	}
 	
 
-	public void agregarZonas(Zona zonanueva) {
+	public void agregarZona(Zona zonanueva) {
 		zonas.add(zonanueva);
 	}
 	
 	
 	public int cantidadTotalAnimales() {
 		int contadorAnimales=0;
-		for (Zona e:zonas) {
-			
-			contadorAnimales+=e.cantidadAnimales();
+		for (int i=0;i<zonas.size()-1; i++) {
+			Zona zona = zonas.get(i);
+			contadorAnimales+=zona.cantidadAnimales();
 		}
 		return contadorAnimales;
 			
