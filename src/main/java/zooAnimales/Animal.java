@@ -165,7 +165,7 @@ public class Animal {
         return "desplazarse";
 	}
 	
-	public static String totalPorTipo() {
+	public static String totalPorTipos() {
 		 return "Mamiferos: "+getTotalMamiferos()+"\n" +
 	                "Aves: "+getTotalAves()+"\n" +
 	                "Reptiles: "+getTotalReptiles()+"\n" +
