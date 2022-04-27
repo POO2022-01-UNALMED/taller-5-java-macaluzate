@@ -170,7 +170,7 @@ public class Animal {
 	                "Aves: "+getTotalAves()+"\n" +
 	                "Reptiles: "+getTotalReptiles()+"\n" +
 	                "Peces: "+getTotalPeces()+"\n" +
-	                "Anfibios: "+getTotalAnfibios();
+	                "Anfibios: "+getTotalAnfibios() +"\n";
 		 
 		 
 		
@@ -186,6 +186,8 @@ public class Animal {
 	
 		
 		if (zona != null) {
+			
+			
 			
             zonaAnimal = zona.getNombre();
             nombreZoo = zona.getZoo().getNombre();
