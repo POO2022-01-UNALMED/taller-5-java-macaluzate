@@ -11,8 +11,7 @@ public class Pez extends Animal{
 	private int cantidadAletas;
 	
 	public Pez() {
-		listado.add(this);
-        setTotalPeces(1);
+		this(null,-1,null,null,null,-1);
         
 		
 		

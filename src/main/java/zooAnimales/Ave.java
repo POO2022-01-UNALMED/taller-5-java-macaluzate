@@ -10,8 +10,7 @@ public class Ave extends Animal{
 	private String colorPlumas;
 	
 	public Ave() {
-		listado.add(this);
-        setTotalAves(1);
+		 this(null,-1,null,null,null);
         
 		
 		

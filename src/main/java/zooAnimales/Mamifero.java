@@ -11,8 +11,7 @@ public class Mamifero extends Animal{
 	private int patas;
 	
 	public Mamifero() {
-		listado.add(this);
-		setTotalMamiferos(1);
+		 this(null, -1, null, null, true, -1);
     }
 			
 	
