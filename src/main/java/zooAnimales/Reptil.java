@@ -11,6 +11,7 @@ public class Reptil extends Animal{
 	private int largoCola;
 	
 	public Reptil () {
+		listado.add(this);
 		
 		 
 		
