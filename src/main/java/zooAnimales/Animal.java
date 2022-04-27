@@ -178,27 +178,33 @@ public class Animal {
 
 	@Override
 	public String toString() {
-        String nombreAnimal = nombre;
-        int edadAnimal = edad;
-        String habitatAnimal = habitat;
-        String generoAnimal = genero;
-        String zonaAnimal;
-        String nombreZoo;
-
-        if (zona != null) {
+		
+		
+		String zonaAnimal;
+		String nombreZoo;
+		
+	
+		
+		if (zona != null) {
+			
+			
+			
             zonaAnimal = zona.getNombre();
             nombreZoo = zona.getZoo().getNombre();
-
-            return "Mi nombre es " + nombreAnimal + ", tengo una edad de " + edadAnimal + ", habito en " +
-                    habitatAnimal + " y mi genero es" + generoAnimal + ", la zona en la que me ubico es " +
-                    zonaAnimal + ", en el " + nombreZoo;
-        } else {
-            return "Mi nombre es " + nombreAnimal + ", tengo una edad de " + edadAnimal +
-                    ", habito en " + habitatAnimal + " y mi genero es " + generoAnimal;
-        }
-    }
-			
+            
+            return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " +
+            this.habitat+ " y mi genero es" + this.genero + ", la zona en la que me ubico es " +
+            zonaAnimal + ", en el " + nombreZoo;
+            
+            
+            
 		
+		}
+		else {
+			 return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " +
+		            this.habitat+ " y mi genero es" + this.genero+"";
+			
+		}
 	
 	}
 
